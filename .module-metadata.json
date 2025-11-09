@@ -1,0 +1,50 @@
+{
+  "name": "api-client",
+  "version": "0.1.0",
+  "description": "REST API client based on Axios",
+  "type": "library",
+  "language": "typescript",
+  "category": "frontend",
+  "maintainers": [
+    {
+      "name": "Modsynth Team"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/modsynth/api-client.git"
+  },
+  "dependencies": {
+    "runtime": [],
+    "external": [
+      "axios"
+    ]
+  },
+  "techStack": [
+    "TypeScript",
+    "Axios"
+  ],
+  "features": [
+    "HTTP client wrapper",
+    "Authentication token management",
+    "Request/response interceptors",
+    "TypeScript definitions"
+  ],
+  "api": {
+    "stability": "experimental",
+    "breaking_changes": []
+  },
+  "documentation": {
+    "readme": "README.md"
+  },
+  "testing": {
+    "coverage_threshold": 80,
+    "frameworks": ["jest"]
+  },
+  "tags": [
+    "api",
+    "http",
+    "axios",
+    "client"
+  ]
+}

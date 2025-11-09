@@ -1,0 +1,30 @@
+{
+  "name": "@modsynth/api-client",
+  "version": "0.1.0",
+  "description": "REST API client based on Axios",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modsynth/api-client.git"
+  },
+  "keywords": [
+    "api",
+    "http",
+    "axios",
+    "client",
+    "modsynth"
+  ],
+  "author": "Modsynth Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
