@@ -94,4 +94,12 @@ export class ApiClient {
   }
 }
 
+// Hooks
+export { useApiClient, useApiRequest } from './hooks';
+export type { UseApiClientOptions, UseApiRequestState } from './hooks';
+
+// Utilities
+export { retryRequest, buildQueryString, isApiError } from './utils';
+export type { ApiErrorResponse } from './utils';
+
 export default ApiClient;
